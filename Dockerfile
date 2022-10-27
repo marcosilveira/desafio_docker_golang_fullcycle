@@ -8,3 +8,4 @@ WORKDIR /usr/src/app
 COPY --from=builder /usr/src/app .
 
 ENTRYPOINT [ "./desafio" ]
+
